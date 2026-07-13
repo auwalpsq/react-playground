@@ -1,0 +1,62 @@
+/* Module 1 styling */
+
+.module-container {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.module-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.module-title {
+  font-size: 32px;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+.module-description {
+  color: var(--text);
+  margin-bottom: 20px;
+}
+
+/* Greeting Subcomponent styling */
+
+.greeting-container {
+  padding: 20px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.greeting-title {
+  color: var(--accent);
+  margin: 0 0 10px;
+}
+
+.greeting-text {
+  margin: 0 0 15px;
+}
+
+.time-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  font-size: 14px;
+  font-family: var(--mono);
+}

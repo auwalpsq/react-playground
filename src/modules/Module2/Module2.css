@@ -1,0 +1,92 @@
+/* Module 2 stylesheet */
+
+.module-header {
+  text-align: left;
+}
+
+.module-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.module-title {
+  font-size: 32px;
+  margin: 0 0 10px;
+}
+
+.module-description {
+  color: var(--text);
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+
+/* StudentCard component styling */
+
+.student-card {
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.student-name {
+  margin: 0;
+  color: var(--text-h);
+  font-size: 18px;
+}
+
+.enrollment-status {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 2px 8px;
+  border-radius: 12px;
+}
+
+.status-enrolled {
+  background: rgba(76, 175, 80, 0.15);
+  color: #4CAF50;
+}
+
+.status-suspended {
+  background: rgba(244, 67, 54, 0.15);
+  color: #F44336;
+}
+
+.student-meta {
+  font-size: 14px;
+  color: var(--text);
+}
+
+.subject-list {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.subject-tag {
+  font-size: 11px;
+  background: var(--accent-bg);
+  border: 1px solid var(--accent-border);
+  color: var(--accent);
+  padding: 2px 8px;
+  border-radius: 4px;
+}

@@ -1,0 +1,139 @@
+/* Module 3 styles */
+
+.module-header {
+  text-align: left;
+}
+
+.module-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.module-title {
+  font-size: 32px;
+  margin: 0 0 10px;
+}
+
+.module-description {
+  color: var(--text);
+  margin-bottom: 24px;
+  font-size: 15px;
+}
+
+/* Interactive Demos container */
+
+.interactive-demo {
+  padding: 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+
+.demo-title {
+  margin: 0 0 12px 0;
+  font-size: 18px;
+  color: var(--text-h);
+}
+
+/* Counter Demos */
+
+.counter-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn-counter {
+  font-family: var(--sans);
+  font-size: 18px;
+  font-weight: bold;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid var(--accent-border);
+  background: var(--accent-bg);
+  color: var(--accent);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.1s, background-color 0.2s;
+}
+
+.btn-counter:hover {
+  background: var(--accent);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.btn-counter:active {
+  transform: scale(0.95);
+}
+
+.count-display {
+  font-family: var(--mono);
+  font-size: 24px;
+  font-weight: bold;
+  min-width: 40px;
+  text-align: center;
+  color: var(--text-h);
+}
+
+/* Card Mode Toggle Demo */
+
+.preview-card {
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 16px;
+
+  /* Layered shadows to simulate a physical plastic card */
+  box-shadow:
+    /* 1. Glossy white light reflection on the top inner edge */
+    inset 0px 1.5px 0px rgba(255, 255, 255, 0.4),
+    /* 2. Soft shadow underneath showing the card is hovering */
+    0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Style variants for card when dark-mode is active */
+.preview-card.dark-theme {
+  background: #111015;
+  color: #e5e7eb;
+  border-color: #3f3f46;
+}
+
+.preview-card.light-theme {
+  background: #ffffff;
+  color: #1f2937;
+  border-color: #e5e7eb;
+}
+
+.btn-toggle {
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--text-h);
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
