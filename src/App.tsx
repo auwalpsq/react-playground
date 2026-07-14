@@ -1,4 +1,4 @@
-import Module6 from './modules/Module6/Module6'
+import Module7 from './modules/Module7/Module7'
 import './App.css'
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
         boxSizing: 'border-box'
       }}>
         {/* Render our active Module */}
-        <Module6 />
+        <Module7 />
       </main>
 
       {/* Footer / Navigation */}
