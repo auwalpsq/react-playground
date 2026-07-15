@@ -1,4 +1,4 @@
-import Module8 from './modules/Module8/Module8_reference'
+import Module8 from './modules/Module8/Module8'
 import './App.css'
 //import Module8_reference from './modules/Module8/Module8_reference'
 

@@ -62,7 +62,6 @@ export default function Module8() {
             <NavLink
               to="/courses"
               className={({isActive}) => `nav-link-btn ${isActive ? 'active' : ''}`}
-              end
             >
               Courses
             </NavLink>
@@ -143,7 +142,7 @@ function Courses(){
       </p>
 
       {/** Render list of course links */}
-      <div className="course grid">
+      <div className="course-grid">
         {courseList.map(c => (
           <Link key={c.id} to={`/courses/${c.id}`} className="course-card">
             <strong>{c.name}</strong> →
