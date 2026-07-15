@@ -1,5 +1,6 @@
-import Module7 from './modules/Module7/Module7'
+import Module8 from './modules/Module8/Module8_reference'
 import './App.css'
+//import Module8_reference from './modules/Module8/Module8_reference'
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
         boxSizing: 'border-box'
       }}>
         {/* Render our active Module */}
-        <Module7 />
+        <Module8 />
       </main>
 
       {/* Footer / Navigation */}
